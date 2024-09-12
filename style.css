@@ -45,7 +45,12 @@ body {
 .search-container button {
   background-color: #ffb92a;
   border: none;
+  width: auto;
+  padding-top: 5px;
   cursor: pointer;
+}
+.search-container button i {
+  font-size: 2em;
 }
 #result {
   color: #ffffff;
